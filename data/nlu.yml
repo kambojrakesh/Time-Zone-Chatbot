@@ -1,0 +1,32 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+
+- intent: find_time_zone
+  examples: |
+    - can you tell the time?
+    - could you tell me the time?
+    - i need you to find the time zone
+    - can you find me a time zone?
+    - what time it is?
+
+- intent: find_time_zone_for_location
+  examples: |
+    - what is time zone of Lisbon?
+    - time zone of london
+    - do you know the time zone of berlin?
+    - i need to know the timezone of Mumbai?
+
+- intent: city_info
+  examples: |
+    - London
+    - New Delhi
+    - Auckland
+    - Oslo
+
+- intent: thanks
+  examples: |
+    - thank you

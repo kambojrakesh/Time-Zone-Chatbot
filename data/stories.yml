@@ -1,0 +1,29 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: ask for timezone long  
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: find_time_zone
+  - action: utter_ask_location
+  - intent: city_info
+  - action: utter_finding_time_zone
+  - intent: thanks
+  - action: utter_you_are_welcome
+
+- story: ask for timezone short  
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: find_time_zone_for_location
+  - action: utter_finding_time_zone
+  - intent: thanks
+  - action: utter_you_are_welcome
+
