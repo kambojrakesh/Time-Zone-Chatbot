@@ -15,6 +15,7 @@ stories:
   - action: utter_ask_location
   - intent: city_info
   - action: utter_finding_time_zone
+  - action: action_show_time_zone
   - intent: thanks
   - action: utter_you_are_welcome
 
@@ -24,6 +25,7 @@ stories:
   - action: utter_greet
   - intent: find_time_zone_for_location
   - action: utter_finding_time_zone
+  - action: action_show_time_zone
   - intent: thanks
   - action: utter_you_are_welcome
 

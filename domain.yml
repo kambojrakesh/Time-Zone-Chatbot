@@ -8,6 +8,17 @@ intents:
   - find_time_zone_for_location
   - thanks
 
+actions:
+  - action_show_time_zone
+
+entities:
+  - city
+
+slots:
+  city:
+    type: text
+    auto_fill: True
+
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -19,7 +30,7 @@ responses:
   - text: "which city do you want to ask the location?"
 
   utter_finding_time_zone:
-  - text: "ok, give me second to look at up....."
+  - text: "ok, give me second to look at timezone of {city}"
 
   utter_thanks:
   - text: "thank you"

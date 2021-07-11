@@ -15,17 +15,17 @@ nlu:
 
 - intent: find_time_zone_for_location
   examples: |
-    - what is time zone of Lisbon?
-    - time zone of london
-    - do you know the time zone of berlin?
-    - i need to know the timezone of Mumbai?
+    - what is time zone of [Sirsa](city)?
+    - time zone of [Hisar](city)?
+    - do you know the time zone of [Jind](city)?
+    - i need to know the timezone of [Delhi](city)?
 
 - intent: city_info
   examples: |
-    - London
-    - New Delhi
-    - Auckland
-    - Oslo
+    - [Sirsa](city)
+    - [Delhi](city)
+    - [Hisar](city)
+    - [Jind](city)
 
 - intent: thanks
   examples: |
